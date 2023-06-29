@@ -21,7 +21,7 @@ public class ProducerDemoWithKeys {
 
         Properties properties = new Properties();
         /*
-        ------- an hardcoded way to create properties
+        ------- a hardcoded way to create properties
 
         properties.setProperty("bootstrap.servers", bootstrapServers);
         properties.setProperty("key.serializer", StringSerializer.class.getName());
